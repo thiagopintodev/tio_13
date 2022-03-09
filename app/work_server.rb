@@ -1,0 +1,2 @@
+class WorkServer
+end

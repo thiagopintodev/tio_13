@@ -1,0 +1,10 @@
+<h1>Root</h1>
+<h2>About</h2>
+
+<p>ivars: <%= instance_variables %></p>
+
+<% instance_variables.each do |k| %>
+        <pre>
+            <%= "#{k} = #{instance_variable_get(k)}" %>
+        </pre>
+<% end %>

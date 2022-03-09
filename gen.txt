@@ -1,0 +1,24 @@
+
+
+touch app.rb
+mkdir -p app/web/requests
+mkdir -p app/work
+mkdir -p app/terminal
+touch app/web_server.rb
+touch app/work_server.rb
+touch app/terminal_server.rb
+touch app/web/requests/app_request.rb
+touch app/web/requests/root_request.rb
+
+
+mkdir -p lib/tio/web
+
+touch lib/tio.rb
+touch lib/tio/app.rb
+touch lib/tio/core.rb
+
+touch lib/tio/web_server.rb
+touch lib/tio/web/request.rb
+
+
+
