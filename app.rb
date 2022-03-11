@@ -43,7 +43,20 @@ end
 loader.eager_load
 
 
+class App < Tio::App
+  set_web_server WebServer
 
+  def root
+    @root ||= Pathname(__dir__)
+  end
+end
+
+WebServer.requests
+AppRequest
+
+$app = App.new
+
+$app.web_server.run  if ARGV[0] == 'web'
 
 
 # binding.irb

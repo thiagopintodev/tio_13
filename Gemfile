@@ -8,5 +8,4 @@ gem 'erb'
 gem 'htmlbeautifier'
 gem 'zeitwerk'
 
-gem 'rack'
-gem 'thin'
+gem 'webrick'

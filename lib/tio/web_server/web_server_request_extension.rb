@@ -34,7 +34,7 @@ module Tio
       if @requests.is_a? Proc
         x = Settings.new
         x.instance_eval &@requests
-        @requests = x
+        return @requests = x
       end
 
       raise "#{self.class}.requests unset!"

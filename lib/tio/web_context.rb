@@ -18,5 +18,9 @@ module Tio
     def web_server_class
       @app.web_server_class
     end
+
+    def static_root
+      @app.root.join('app/web/public')
+    end
   end
 end

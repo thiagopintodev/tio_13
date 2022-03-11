@@ -3,8 +3,8 @@ require 'active_support/all'
 require 'erb'
 require 'htmlbeautifier'
 
-require 'rack'
-require 'thin'
+require 'webrick'
+require 'pathname'
 
 module Tio
   VERSION = '0.0.0'

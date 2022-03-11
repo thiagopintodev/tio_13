@@ -3,8 +3,8 @@ module Tio
     extend WebServerRequestExtension
     include WebServerRequestInclusion
     
-    # extend WebServerRackExtension
-    include WebServerRackInclusion
+    # extend WebServerWebrickExtension
+    include WebServerWebrickInclusion
     
     # extend WebServerSessionExtension
     # include WebServerSessionInclusion
